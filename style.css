@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #3161e0;
+}
+
+.menu{
+    width: 100%;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    background-color: #3161e0;
+    height: 100px;
+}
+
+
+.discord-logo{
+    margin-right: 150px;
+    vertical-align: middle;
+}
+
+nav{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+#login{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+    display: inline;
+}
+
+.jumbotron{
+    height: 70vh;
+    background-image: url('img/jumbo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-container{
+    width: 50%;
+    max-width: 980px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text-container h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.text-container p{
+    font-size: 20px;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+    float: left;
+    margin: 20px 10px;
+    position: relative;
+    left: 150px;
+}
+
+.btn-black{
+    background-color: #23272a;
+    color: white;
+    position: relative;
+    top: 28px;
+    left: 20px;
+    
+}
