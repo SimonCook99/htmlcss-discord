@@ -95,14 +95,72 @@ nav ul li a{
     float: left;
     margin: 20px 10px;
     position: relative;
-    left: 150px;
+    left: 80px;
+    padding: 16px 32px;
 }
 
 .btn-black{
     background-color: #23272a;
     color: white;
     position: relative;
-    top: 28px;
-    left: 20px;
+    top: 37px;
+    padding: 16px 32px;
+}
+
+
+main section{
+    height: 70vh;
+    width: 80%;
+    margin: auto;
+}
+
+.main-content{
+    margin-top: 100px;
+    position: relative;
+}
+
+.main-content img{
+    width: 60%;
+}
+
+.main-content h1, .main-content p{
+    float: right;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    margin-top: 40px;
+}
+
+.main-content .sottotitolo{
+    font-size: 40px;
+}
+
+.main-content .descrizione{
+    margin-top: 300px;
     
+}
+
+.section-container:nth-child(2), .section-container:nth-child(4){
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.dettagli{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* differenziazione nel secondo contenitore per invertire le posizioni dell'immagine e i testi*/
+.main-content .dettagli h1, .main-content .dettagli p{
+    position: absolute;
+    top: 0;
+    right: -300px;
+    width: 300px;
+}
+
+.immagine-destra{
+    float: right;
 }
