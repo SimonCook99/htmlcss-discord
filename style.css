@@ -164,3 +164,45 @@ main section{
 .immagine-destra{
     float: right;
 }
+
+
+/*Sezione finale del main*/
+.final-section-container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+/*Altezza doppia per la sezione finale prima del footer*/
+.section-container#finale{
+    height: 140vh;
+}
+
+.final-section-container img{
+    width: 80%;
+}
+.final-section-container h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.final-section-container .description{
+    width: 80%;
+    margin-left: 100px;
+}
+
+.button.btn-blue{
+    background-color: #8ea1e1;
+    color: white;
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    padding-top: 8px 16px;
+}
+
+
+
+/*inizio footer*/
+footer{
+    background-color: #23272a;
+    height: 70vh;
+}
