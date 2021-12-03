@@ -9,8 +9,7 @@
     width: 80%;
     max-width: 1180px;
     margin: 0 auto;
-    height: 100%;
-    background-color: #3161e0;
+    background-color: #255EE9;
 }
 
 .menu{
@@ -20,7 +19,7 @@
 
 header{
     width: 100%;
-    background-color: #3161e0;
+    background-color: #255EE9;
     height: 100px;
 }
 
@@ -107,9 +106,14 @@ nav ul li a{
     padding: 16px 32px;
 }
 
+.text-container:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 
 main section{
-    height: 70vh;
     width: 80%;
     margin: auto;
 }
@@ -133,6 +137,12 @@ main section{
     margin-top: 40px;
 }
 
+.main-content:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .main-content .sottotitolo{
     font-size: 40px;
 }
@@ -145,6 +155,7 @@ main section{
 .section-container:nth-child(2), .section-container:nth-child(4){
     width: 100%;
     background-color: #f6f6f6;
+    padding-bottom: 100px;
 }
 
 .dettagli{
@@ -172,10 +183,7 @@ main section{
     padding-top: 100px;
 }
 
-/*Altezza doppia per la sezione finale prima del footer*/
-.section-container#finale{
-    height: 140vh;
-}
+
 
 .final-section-container img{
     width: 80%;
@@ -191,7 +199,7 @@ main section{
 }
 
 .button.btn-blue{
-    background-color: #8ea1e1;
+    background-color: #7289da;
     color: white;
     position: relative;
     top: 50px;
@@ -204,7 +212,8 @@ main section{
 /*inizio footer*/
 footer{
     background-color: #23272a;
-    height: 70vh;
+    height: 90vh;
+    position: relative;
 }
 
 footer .final-container{
@@ -212,17 +221,23 @@ footer .final-container{
     margin: auto;
     padding-top: 100px;
     position: relative;
-    
+    height: 80%;
+}
+
+.final-container:after{
+    display: table;
+    clear: both;
+    content: "";
 }
 
 footer .final-container .colonna-1{
     width: 20%;
-    display: inline-block;
+    float: left;
     margin-right: 50px;
     margin-bottom: 50px;
 }
 footer .final-container h2{
-    color: #8ea1e1;
+    color: #7289da;
     margin-bottom: 20px;
     font-size: 25px;
 }
@@ -239,13 +254,13 @@ footer .final-container h2{
 }
 
 .final-container .colonna-di-navigazione{
-    display: inline-block;
+    float: left;
     height: 200px;
     margin-left: 50px;
 }
 
 .colonna-di-navigazione h3{
-    color: #8ea1e1;
+    color: #7289da;
 }
 
 .colonna-di-navigazione .lista-footer ul li{
@@ -254,4 +269,35 @@ footer .final-container h2{
     line-height: 20px;
     margin-left: 0;
     color: white;
+}
+
+.final-container hr{
+    width: 100%;
+    border-color: #7289da;
+    position: absolute;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+.last-footer-content{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.last-footer-content a.button.button.btn-blue{
+    float: right;
+    top: 0px; /*Reimposto la posiziona statica del bottone footer*/
+    font-size: 16px;
+}
+
+footer:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* implementazione hover per la nav iniziale e il footer*/
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
