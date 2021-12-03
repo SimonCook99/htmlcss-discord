@@ -206,3 +206,52 @@ footer{
     background-color: #23272a;
     height: 70vh;
 }
+
+footer .final-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    position: relative;
+    
+}
+
+footer .final-container .colonna-1{
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+footer .final-container h2{
+    color: #8ea1e1;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.colonna-1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+.colonna-1 i{
+    color: white;
+    padding-right: 20px;
+}
+
+.final-container .colonna-di-navigazione{
+    display: inline-block;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.colonna-di-navigazione h3{
+    color: #8ea1e1;
+}
+
+.colonna-di-navigazione .lista-footer ul li{
+    display: block;
+    margin-top: 10px;
+    line-height: 20px;
+    margin-left: 0;
+    color: white;
+}
